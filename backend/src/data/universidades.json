@@ -1,0 +1,53 @@
+
+[
+{ 
+    "nombre": "Universidad Arturo Prat", 
+    "id_financiacion": 1,
+    "id_region": "RM"
+},
+{ 
+    "nombre": "Instituto Chileno Británico de Cultura", 
+    "id_financiacion": 2,
+    "id_region": "RM"
+},
+{ 
+    "nombre": "Universidad de Chile", 
+    "id_financiacion": 1,
+    "id_region": "RM"
+},
+{ 
+    "nombre": "Universidad de Santiago de Chile", 
+    "id_financiacion": 1,
+    "id_region": "RM"
+},
+{ 
+    "nombre": "Universidad Tecnológica Metropolitana", 
+    "id_financiacion": 1,
+    "id_region": "RM"
+},
+{ 
+    "nombre": "Escuela Culinaria Francesa", 
+    "id_financiacion": 2,
+    "id_region": "RM"
+},
+{ 
+    "nombre": "Instituto Chileno Británico de Cultura", 
+    "id_financiacion": 2,
+    "id_region": "RM"
+},
+{ 
+    "nombre": "Instituto Profesional AIEP", 
+    "id_financiacion": 2,
+    "id_region": "RM"
+},
+{ 
+    "nombre": "Universidad Adolfo Ibáñez", 
+    "id_financiacion": 2,
+    "id_region": "RM"
+},
+{ 
+    "nombre": "Universidad Católica Silva Henríquez", 
+    "id_financiacion": 2,
+    "id_region": "RM"
+}
+]
