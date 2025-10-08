@@ -1,0 +1,19 @@
+.hero {
+    height: 60vh; /* Ocupa el 60% del alto de la pantalla */
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    /* Degradado diagonal con los dos morados */
+    display: flex; /* Activa flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Centra texto */
+    }
+
+    /* Botón dentro del hero */
+    .hero .btn {
+    background-color: var(--color-primary); /* Color principal */
+    border-radius: 50px; /* Bordes redondeados estilo "pill" */
+    padding: 0.75rem 1.5rem; /* Espaciado interno */
+    border: none; /* Sin borde */
+    color: white; /* Texto blanco */
+    font-weight: 500; /* Texto un poco más grueso */
+    }

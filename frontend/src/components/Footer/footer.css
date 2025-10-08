@@ -1,0 +1,28 @@
+/* footer */
+footer{
+    #logoFooter{
+        width: 3rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    #youtube, #facebook, #linkedin, #instagram{
+        width: 5rem;
+        fill: white
+    }
+
+    a:hover {
+          color: #ffffff !important;
+          transition: color 0.3s ease;
+        }
+        
+        .input-group .btn-primary {
+          border-color: #0d6efd;
+        }
+        
+        .input-group .btn-primary:hover {
+          background-color: #0b5ed7;
+          border-color: #0a58ca;
+        }
+}
+

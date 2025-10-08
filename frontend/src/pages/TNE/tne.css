@@ -1,0 +1,108 @@
+
+    /*  fuente Poppins  */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+    /* =======================
+    Variables globales
+    ======================= */
+    /* Defino colores como variables para poder reutilizarlos en todo el código */
+    :root {
+    --color-primary: #cb6ce6;   /* Morado/fucsia principal */
+    --color-secondary: #7a3db8; /* Morado más oscuro para degradados */
+    --color-alt: #aa5dda;       /* Tono intermedio (navbar) */
+    --color-info: #d1f6fb;      /* Celeste claro (ejemplos BAES) */
+    --color-dark: #333333;      /* Gris oscuro para textos */
+    
+    }
+
+
+
+    /* =======================
+    Hero Section
+    ======================= */
+    .hero {
+    height: 60vh; /* Ocupa el 60% del alto de la pantalla */
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    /* Degradado diagonal con los dos morados */
+    display: flex; /* Activa flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Centra texto */
+    }
+
+    /* Botón dentro del hero */
+    .hero .btn {
+    background-color: var(--color-primary); /* Color principal */
+    border-radius: 50px; /* Bordes redondeados estilo "pill" */
+    padding: 0.75rem 1.5rem; /* Espaciado interno */
+    border: none; /* Sin borde */
+    color: white; /* Texto blanco */
+    font-weight: 500; /* Texto un poco más grueso */
+    }
+
+    /* =======================
+    Sección de cards
+    ======================= */
+    #sec-info1 {
+    width: 80rem; /* Ancho fijo */
+    margin: 2rem auto; /* Centrado horizontal y espacio arriba/abajo */
+    }
+
+    /* Estilo de los títulos de card */
+    .card-title {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    /* Degradado con los colores principales */
+    color: rgb(255, 255, 255); /* Texto blanco */
+    padding: 1rem; /* Espaciado interno */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    margin-bottom: 1rem; /* Espacio con respecto al contenido siguiente */
+    
+    }
+    .custom-btn {
+        background-color: #9b4dca; /* morado */
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 25px; /* bordes redondeados */
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 5px;
+        transition: background-color 0.3s ease;
+        }
+
+        .custom-btn:hover {
+        background-color: #7b36a6; /* morado más oscuro al pasar el mouse */
+        }
+        .custom-card {
+            
+            background-color: #000000; /*lavanda claro */
+            border: 1px solid #ffffff; /* borde suave */
+            border-radius: 10px;
+        }
+        .card-body1 {
+            
+            padding: 0.6rem;
+        }
+
+        .card-text1 {
+        margin-bottom: 0.5rem; /* reduce espacio entre párrafos */
+        line-height: 1.3;      /* achica la separación entre líneas */
+        }
+        
+    /* Botón dentro de card-title */
+    .sub-title .btn {
+    background-color: var(--color-primary);
+    }
+    #cuarentacinco{
+        color:  #a052cf;
+    }
+
+    .example-box strong {
+    font-weight: 600; /* Texto en negrita media */
+    }
+    .video-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+    

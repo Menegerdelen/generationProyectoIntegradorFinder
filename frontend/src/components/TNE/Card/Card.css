@@ -1,0 +1,20 @@
+
+    /* =======================
+    Sección de cards
+    ======================= */
+    #sec-info1 {
+    width: 80rem; /* Ancho fijo */
+    margin: 2rem auto; /* Centrado horizontal y espacio arriba/abajo */
+    }
+
+    /* Estilo de los títulos de card */
+    .card-title {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    /* Degradado con los colores principales */
+    color: rgb(255, 255, 255); /* Texto blanco */
+    padding: 1rem; /* Espaciado interno */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    margin-bottom: 1rem; /* Espacio con respecto al contenido siguiente */
+    
+    }
+   
