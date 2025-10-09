@@ -9,7 +9,7 @@ export const crearUniversidadController = async( req: Request, res: Response ): 
     const nuevaUniversidadData: NuevaUniversidad = req.body;
 
     if ( !nuevaUniversidadData.nombre || !nuevaUniversidadData.id_financiacion || !nuevaUniversidadData.id_region ) {
-        res.status( 400 ).json({ msg: 'Faltan campos obligatorios: nombre, id_financiacion, id_region.' });
+        res.status( 400 ).json({ msg: 'Faltan campos obligatorios: Nombre de universidad, ID Financiacion, ID Region.' });
         return;
     }
 
@@ -41,7 +41,7 @@ export const buscarUniversidadesPorRegionController = async ( req: Request, res:
     const { id_region } = req.params;
 
     if( !id_region ){
-        res.status( 400 ).json( {msg: 'Falta el parametro: id_region'} );
+        res.status( 400 ).json( {msg: 'Falta el parametro: ID Region'} );
         return;
     }
 
@@ -60,7 +60,7 @@ export const actualizarUniversidadController = async ( req: Request, res: Respon
 
     if (isNaN(id_universidad) || !data.nombre || !data.id_financiacion || !data.id_region) {
         return res.status(400).json({
-        msg: "Faltan parámetros requeridos: 'id_universidad', 'nombre', 'id_financiacion' y/o 'id_region'.",
+        msg: "Faltan parámetros requeridos: 'ID Universidad', 'Nombre Universidad', 'ID Financiacion' y/o 'ID Region'.",
         datos: null
         });
     }

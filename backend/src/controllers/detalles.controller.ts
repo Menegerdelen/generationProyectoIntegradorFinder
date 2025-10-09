@@ -7,7 +7,7 @@ export const crearDetallleController =  async( req: Request, res: Response ) => 
     const nuevoDetalleData: NuevoDetalle = req.body;
 
     if ( !nuevoDetalleData.id_universidad ) {
-        res.status( 400 ).json({ msg: 'Faltan campos obligatorios: id_universidad.' })
+        res.status( 400 ).json({ msg: 'Faltan campos obligatorios: ID Universidad.' })
         return;
     }
 

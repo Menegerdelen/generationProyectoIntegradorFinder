@@ -31,7 +31,7 @@ export const FormNuevoDetalle = ({ onDetalleCreado }: Props) => {
         setExito("");
 
         try {
-        const { data } = await axios.post("http://localhost:3000/api/detalles", {
+        const { data } = await axios.post("http://localhost:3000/api/detalles-universidades", {
             web: web || null,
             email: email || null,
             telefono: telefono || null,
