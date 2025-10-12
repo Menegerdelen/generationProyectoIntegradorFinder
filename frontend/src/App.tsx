@@ -5,6 +5,7 @@ import './App.css'
 // import { Navbar } from './components/Navbar/Navbar'
 
 // Import de paginas
+
 import { Inicio } from './pages/Index/Inicio'
 import { BAES } from './pages/Baes/Baes'
 import { TNE } from './pages/TNE/TNE'
