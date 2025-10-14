@@ -40,7 +40,15 @@ Plataforma web enfocada en estudiantes chilenos, que permite explorar universida
 ```bash
 cd backend
 npm install
+
 # Configura tu archivo .env con credenciales de PostgreSQL
+# DB_USER=postgres
+# DB_HOST=localhost
+# DB_NAME=tu_bbdd
+# DB_PASS=tu_pass
+# DB_PORT=5432
+# PORT=3000
+
 npm run dev
 ```
 
@@ -54,8 +62,12 @@ npm run dev
 
 ## 📚 Créditos y agradecimientos
 Este proyecto fue desarrollado como parte del programa Generation Chile.
-
-
+Las vistas mostradas fueron creadas por los siguientes miembros del grupo:
+- Isabela Villa: Index
+- Francisca Monroe: TNE
+- Fernanda  Linares: Baes
+- Manuel Nuñez: Mapa Chile, Quien Somos, Admin Panel, creacion de Backend y conexion a base de datos de PostgreSQL
+- Sergio Garcia: Logo Finder
 
 
 
