@@ -16,14 +16,14 @@ import superIntIMG from "../../../../src/assets/img/indexImg/Enlacesexternos/Sup
         futuro.
         </p>
         <div className="d-flex gap-3 overflow-auto pb-3">
-        <div className="card flex-shrink-0" style={{ width: "18rem" }}>
+        <div className="card cardIndex flex-shrink-0" style={{ width: "18rem" }}>
             <img
             src={demreIMG}
-            className="card-img-top"
+            className="card-img-top card-img-topIndex"
             alt="..."
             />
-            <div className="card-body text-center">
-            <p className="card-text">DEMRE</p>
+            <div className="card-body card-bodyIndex text-center">
+            <p className="card-text card-textIndex">DEMRE</p>
             <a
                 href="https://demre.cl"
                 target="_blank"
@@ -33,14 +33,14 @@ import superIntIMG from "../../../../src/assets/img/indexImg/Enlacesexternos/Sup
             </a>
             </div>
         </div>
-        <div className="card flex-shrink-0" style={{ width: "18rem" }}>
+        <div className="card cardIndex flex-shrink-0" style={{ width: "18rem" }}>
             <img
             src={accesIMG}
-            className="card-img-top"
+            className="card-img-top card-img-topIndex"
             alt="..."
             />
-            <div className="card-body text-center">
-            <p className="card-text">Acceso Educación Superior</p>
+            <div className="card-body card-bodyIndex text-center">
+            <p className="card-text card-textIndex">Acceso Educación Superior</p>
             <a
                 href="https://acceso.mineduc.cl"
                 target="_blank"
@@ -50,14 +50,14 @@ import superIntIMG from "../../../../src/assets/img/indexImg/Enlacesexternos/Sup
             </a>
             </div>
         </div>
-        <div className="card flex-shrink-0" style={{ width: "18rem" }}>
+        <div className="card cardIndex flex-shrink-0" style={{ width: "18rem" }}>
             <img
             src={superIntIMG}
-            className="card-img-top"
+            className="card-img-top card-img-topIndex"
             alt="..."
             />
-            <div className="card-body text-center">
-            <p className="card-text">Superintendencia de la Educación Superior</p>
+            <div className="card-body card-bodyIndex text-center">
+            <p className="card-text card-textIndex">Superintendencia de la Educación Superior</p>
             <a
                 href="https://www.sesuperior.cl/es_cl/"
                 target="_blank"
@@ -67,14 +67,14 @@ import superIntIMG from "../../../../src/assets/img/indexImg/Enlacesexternos/Sup
             </a>
             </div>
         </div>
-        <div className="card flex-shrink-0" style={{ width: "18rem" }}>
+        <div className="card cardIndex flex-shrink-0" style={{ width: "18rem" }}>
             <img
             src={eduTecIMG}
-            className="card-img-top"
+            className="card-img-top card-img-topIndex"
             alt="..."
             />
-            <div className="card-body text-center">
-            <p className="card-text">Educación técnico profesional</p>
+            <div className="card-body card-bodyIndex text-center">
+            <p className="card-textIndex">Educación técnico profesional</p>
             <a
                 href="https://educaciontecnica.cl/"
                 target="_blank"
@@ -84,14 +84,14 @@ import superIntIMG from "../../../../src/assets/img/indexImg/Enlacesexternos/Sup
             </a>
             </div>
         </div>
-        <div className="card flex-shrink-0" style={{ width: "18rem" }}>
+        <div className="card cardIndex flex-shrink-0" style={{ width: "18rem" }}>
             <img
             src={mifuturoIMG}
-            className="card-img-top"
+            className="card-img-top card-img-topIndex"
             alt="..."
             />
-            <div className="card-body text-center">
-            <p className="card-text">Mi futuro</p>
+            <div className="card-body card-bodyIndex text-center">
+            <p className="card-text card-textIndex">Mi futuro</p>
             <a
                 href="https://www.mifuturo.cl/"
                 target="_blank"

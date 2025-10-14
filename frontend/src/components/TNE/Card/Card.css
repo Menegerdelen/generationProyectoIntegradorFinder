@@ -8,7 +8,7 @@
     }
 
     /* Estilo de los títulos de card */
-    .card-title {
+    .cardTitleTne {
     background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
     /* Degradado con los colores principales */
     color: rgb(255, 255, 255); /* Texto blanco */

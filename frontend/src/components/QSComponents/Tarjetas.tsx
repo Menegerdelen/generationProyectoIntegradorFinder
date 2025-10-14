@@ -13,7 +13,7 @@ export const Tarjetas = ( { member }: TarjetaProps ) => {
     const accionExpandir = () => setExpandir( !expandir )
 
     return (
-        <div className="card colorPrimario " >
+        <div className="card cardRedondo colorPrimario " >
             <img src={ member.image } className="p-4 img-fluid rounded-circle" alt={ member.name } />
             <div className="card-body  text-light">
                 <h3 className="nombre fw-bold">{ member.name }</h3>

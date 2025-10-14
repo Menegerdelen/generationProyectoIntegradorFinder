@@ -22,7 +22,7 @@
                 />
                 <a
                     href="https://educacionsuperior.mineduc.cl/"
-                    className="btn btn-outline-light"
+                    className="btn btnTNE btn-outline-light"
                     target="_blank"
                     style={{ color: "#000000" }}
                 >
@@ -42,7 +42,7 @@
                 />
                 <a
                     href="https://www.demre.cl"
-                    className="btn btn-outline-light"
+                    className="btn btnTNE btn-outline-light"
                     target="_blank"
                     style={{ color: "#000000" }}
                 >
@@ -62,7 +62,7 @@
                 />
                 <a
                     href="https://www.sistemadeadmisionescolar.cl/"
-                    className="btn btn-outline-light"
+                    className="btn btnTNE btn-outline-light"
                     target="_blank "
                     style={{ color: "#000000" }}
                 >

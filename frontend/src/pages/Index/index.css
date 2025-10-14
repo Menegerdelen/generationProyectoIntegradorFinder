@@ -1,0 +1,73 @@
+/*Barra nagegación*/
+.colorPrimario{
+    background-color: #b267e1 !important;
+}
+
+/*Sección 2 Tu futuro comienza aquí*/
+.seccion-uno {
+  background-color:#aa5dda;  /* fondo blanco */
+  padding: 40px 20px;       /* espacio interno arriba/abajo y lados */
+  text-align: center;       /* centra el texto */
+}
+.card-img-topIndex {
+  object-fit: cover;
+}
+
+
+/*Sección 3 No sabes por dónde comenzar*/
+  .cardIndex {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  /* Mantener todas iguales */
+  .card-img-topIndex {
+    height: 200px; /* Puedes ajustar */
+    object-fit: cover;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  /* Hover efecto */
+  .cardIndex:hover {
+    transform: scale(1.03);
+  }
+  .cardIndex:hover .card-img-topIndex {
+    opacity: 1;
+  }
+  .card-titleIndex, .card-textIndex {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  .cardIndex:hover .card-titleIndex {
+    transform: scale(1.2);
+    color: #6a0dad; /* morado bonito */
+  }
+  .cardIndex:hover .card-textIndex {
+    transform: scale(1.05);
+    color: #333;
+  }
+
+  /* Hacer toda la tarjeta clickeable */
+  .card-linkIndex {
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+
+/*Sección 4 Explora el Chile Universitario*/
+.seccion-tres {
+  background-color: #aa5dda;  /* fondo blanco */
+  padding: 40px 20px;       /* espacio interno arriba/abajo y lados */
+  text-align: center;       /* centra el texto */
+}
+
+/*Sección 5 Enlaces externos*/
+.seccion-cuatro {
+  background-color: #ffffff;  /* fondo blanco */
+  padding: 40px 20px;       /* espacio interno arriba/abajo y lados */
+  text-align: center;       /* centra el texto */
+}
+
+
+
+
+

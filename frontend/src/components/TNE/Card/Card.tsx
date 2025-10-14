@@ -9,7 +9,7 @@
             <div className="col-lg-6">
             <div className="card h-100">
                 <div className="card-body">
-                <h5 className="card-title">¿Quiénes pueden solicitar la TNE?</h5>
+                <h5 className="card-title cardTitleTne">¿Quiénes pueden solicitar la TNE?</h5>
                 <br />
                 <ul>
                     <li>
@@ -37,20 +37,20 @@
             <div className="col-lg-6">
             <div className="card h-100">
                 <div className="card-body">
-                <h5 className="card-title">¿Cuándo debes sacar una nueva TNE?</h5>
+                <h5 className="card-title cardTitleTne">¿Cuándo debes sacar una nueva TNE?</h5>
                 <p className="card-text">
                     Cada vez que un estudiante pasa a 5º básico, 1º medio o entra a
                     la educación superior, tiene que sacarse una nueva foto para la
                     TNE, que usará hasta que cambie de ciclo y tenga que renovarla.
                 </p>
-                <h5 className="card-title">
+                <h5 className="card-title cardTitleTne">
                     ¿Cuándo debes revalidar tu actual tarjeta?
                 </h5>
                 <p className="card-text">
                     Si ya tienes tu TNE antes del 31 de mayo, debes revalidarla para
                     seguir con la tarifa rebajada.
                 </p>
-                <h5 className="card-title">¿Cuándo debes sacar una nueva TNE?</h5>
+                <h5 className="card-title cardTitleTne">¿Cuándo debes sacar una nueva TNE?</h5>
                 <p className="card-text">
                     La reposición se hace si la TNE está muy dañada, se pierde, se
                     roba, o si el estudiante volvió a estudiar y tenía una tarjeta

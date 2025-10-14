@@ -14,7 +14,7 @@ export const QuienesSomos = () => {
 
                             <div className="row gap-2 justify-content-center">
                                 <div className="col-12 col-md-5">
-                                    <div className="card colorPrimario text-light h-100">
+                                    <div className="card cardRedondo colorPrimario text-light h-100">
                                         <div className="card-body">
                                             <div id="mision">
                                                 <h2 className="fw-bold text-center">Misión</h2>
@@ -25,7 +25,7 @@ export const QuienesSomos = () => {
                                 </div>
 
                                 <div className="col-12 col-md-5">
-                                    <div className="card colorPrimario text-light h-100">
+                                    <div className="card cardRedondo colorPrimario text-light h-100">
                                         <div className="card-body">
                                             <div id="vision">
                                                 <h2 className="fw-bold text-center">Visión</h2>

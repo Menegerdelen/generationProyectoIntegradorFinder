@@ -57,7 +57,7 @@ export const ListadoUniversidadesPorRegion = () => {
                     <div className="col-8 col-md-8 col-lg-8 col-xl-3 m-3" key={uni.id_universidad}>
                     <div className="card">
                         <div className="card-body">
-                        <h5 className="card-title">{uni.nombre_universidad}</h5>
+                        <h5 className="card-title cardTitleTne">{uni.nombre_universidad}</h5>
                         <h6 className="card-subtitle mb-2 text-muted">
                             Financiación: {uni.tipo_financiacion}
                         </h6>

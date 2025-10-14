@@ -27,19 +27,19 @@ function Tufuturo() {
         {/* Card a la derecha */}
         <div className="col-lg-6">
             <div
-            className="card mx-auto shadow-lg border-0 rounded-4"
+            className="card cardIndex mx-auto shadow-lg border-0 rounded-4"
             style={{ maxWidth: 400 }}
             >
 
             {/* Título y subtítulo */}
-            <div className="card-body text-center">
+            <div className="card-body card-bodyIndex text-center">
                 <h4 className="fw-bold text-dark">Test Vocacional</h4>
                 <p className="text-muted mb-4">Descubre tu carrera ideal</p>
             </div>
             {/* Imagen */}
             <img
                 src={ testVocacion }
-                className="card-img-top"
+                className="card-img-top card-img-topIndex"
                 alt="Test vocacional"
             />
             {/* Botón */}

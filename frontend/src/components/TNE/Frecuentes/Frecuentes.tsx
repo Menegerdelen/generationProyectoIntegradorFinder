@@ -9,7 +9,7 @@ export const Frecuentes = () => {
                     <div className="col-lg-12">
                         <div className="card h-100">
                             <div className="card-body">
-                                <h5 className="card-title">COSTO REVALIDACIÓN</h5>
+                                <h5 className="card-title cardTitleTne">COSTO REVALIDACIÓN</h5>
                                 <p className="card-text">
                                     La revalidación solo se paga en educación superior, cuesta
                                     $1.100 y se paga en la misma universidad o instituto. En básica
@@ -23,7 +23,7 @@ export const Frecuentes = () => {
                     <div className="col-lg-12">
                         <div className="card h-100">
                             <div className="card-body">
-                                <h5 className="card-title">
+                                <h5 className="card-title cardTitleTne">
                                     ¿QUÉ DOCUMENTOS NECESITO PARA LA REPOSICIÓN DE MI TNE?
                                 </h5>
                                 

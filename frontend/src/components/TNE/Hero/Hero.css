@@ -1,4 +1,4 @@
-.hero {
+.heroTNE {
     height: 60vh; /* Ocupa el 60% del alto de la pantalla */
     background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
     /* Degradado diagonal con los dos morados */
@@ -9,7 +9,7 @@
     }
 
     /* Botón dentro del hero */
-    .hero .btn {
+    .heroTNE .btnTNE {
     background-color: var(--color-primary); /* Color principal */
     border-radius: 50px; /* Bordes redondeados estilo "pill" */
     padding: 0.75rem 1.5rem; /* Espaciado interno */

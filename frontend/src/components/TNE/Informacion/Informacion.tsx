@@ -20,7 +20,7 @@ export const Informacion = () => {
                     <div className="col-md-4">
                         <div className="card h-100">
                             <div className="card-body">
-                                <h5 className="card-title">¿Qué es la TNE?</h5>
+                                <h5 className="card-title cardTitleTne">¿Qué es la TNE?</h5>
                                 <p className="card-text">
                                     La Tarjeta Nacional Estudiantil (TNE) es un beneficio que permite a
                                     los estudiantes acceder a tarifas preferenciales en el transporte
@@ -34,7 +34,7 @@ export const Informacion = () => {
                     <div className="col-md-4">
                         <div className="card h-100">
                             <div className="card-body">
-                                <h5 className="card-title">Beneficios principales:</h5>
+                                <h5 className="card-title cardTitleTne">Beneficios principales:</h5>
                                 <ul>
                                     <li>Tarifa reducida en transporte público</li>
                                     <li>Descuentos en comercios asociados</li>
@@ -49,7 +49,7 @@ export const Informacion = () => {
                     <div className="col-md-4">
                         <div className="card h-100">
                             <div className="card-body">
-                                <h5 className="card-title">Requisitos:</h5>
+                                <h5 className="card-title cardTitleTne">Requisitos:</h5>
                                 <ul>
                                     <li>Ser estudiante regular</li>
                                     <li>Institución educativa reconocida</li>
@@ -67,7 +67,7 @@ export const Informacion = () => {
                     <div className="col-md-12">
                         <div className="card h-100">
                             <div className="card-body text-center">
-                                <h5 className="card-title">¿Mucho texto?</h5>
+                                <h5 className="card-title cardTitleTne">¿Mucho texto?</h5>
                                 <p className="card-text mb-3">
                                     Te invitamos a ver un video resumido:
                                 </p>

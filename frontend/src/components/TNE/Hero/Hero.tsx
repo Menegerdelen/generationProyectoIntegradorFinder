@@ -3,7 +3,7 @@
 
 export const Hero = () => {
 return (
-    <section className="hero text-center d-flex align-items-center">
+    <section className="heroTNE text-center d-flex align-items-center">
         <div className="container">
         <h3 className="fw-bold display-5">
             <span style={{ color: "#fcfcfc" }}>TNE</span>

@@ -3,7 +3,7 @@ import Nosabescomenzar from "../../components/IndexComponents/3Nosabescomenzar/N
 import Explorachile from "../../components/IndexComponents/4Explorachile/Explorachile."
 import Enlacesexternos from "../../components/IndexComponents/5Enlacesexternos/Enlacesexternos"
 
-
+import './index.css'
 
 export const Inicio = () => {
     return (
