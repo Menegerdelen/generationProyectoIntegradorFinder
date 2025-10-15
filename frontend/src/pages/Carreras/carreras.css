@@ -1,0 +1,86 @@
+/* =======================
+   Fuente y variables
+======================= */
+
+:root {
+  --carreras-color-primary: #cb6ce6;
+  --carreras-color-secondary: #7a3db8;
+  --carreras-color-alt: #aa5dda;
+  --carreras-color-info: #d1f6fb;
+  --carreras-color-dark: #333;
+}
+
+
+
+/* =======================
+   Hero
+======================= */
+.carreras-hero {
+  height: 60vh;
+  background: linear-gradient(135deg, var(--carreras-color-primary), var(--carreras-color-secondary));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.herotext {
+  color:#FFD700
+}
+
+/* =======================
+   Cards (extra sobre Bootstrap)
+======================= */
+.carreras-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+.carreras-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+.carreras-card-body { padding: 1.5rem; }
+.carreras-card-title {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+.carreras-subTitle {
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+.carreras-card-text { color: #333; line-height: 1.5; font-size: 1rem; }
+
+.carreras-cardAlt {
+  background-color: #ece6f3;
+  border: 1px solid #ece6f3;
+  border-radius: 10px;
+}
+
+/* Botón propio (puedes usar .btn de Bootstrap si prefieres) */
+.carreras-btn {
+  background-color: #9b4dca !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 25px !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  margin: 5px !important;
+  transition: background-color 0.3s ease !important;
+}
+.carreras-btn:hover { background-color: #7b36a6 !important; }
+
+/* Texto especial */
+.carreras-cuarentacinco { color: #a052cf; }
+
+/* Caja ejemplo */
+.carreras-exampleBox {
+  background-color: var(--carreras-color-info);
+  border: 1px solid #e0e0e0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: var(--carreras-color-dark);
+}

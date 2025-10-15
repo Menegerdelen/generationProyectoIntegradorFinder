@@ -1,7 +1,11 @@
-/* 🎨 cards.css */
-/* ----- ESTILOS GENERALES DE TODAS LAS TARJETAS ----- */
 
-.cardBaes {
+/* =======================
+   Estilos de las tarjetas BAES
+   Prefijo: baes-
+   ======================= */
+
+/* ----- ESTILOS GENERALES DE TODAS LAS TARJETAS ----- */ 
+.baes-card {
   border-radius: 16px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border: none;
@@ -9,72 +13,127 @@
   background-color: #fff;
 }
 
-.cardBaes:hover {
+.baes-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
 
-.card-bodyBaes {
+.baes-card-body {
   padding: 1.5rem;
+  text-align: center;
 }
 
 /* ----- TÍTULOS Y TEXTOS ----- */
-.card-titleBaes {
+.baes-card-title {
   font-weight: 700;
-  color: #004085; /* cambio: azul tipo institucional */
-  margin-bottom: 0.75rem;
+  background: linear-gradient(135deg, #cb6ce6, #7a3db8); /* degradado morado */
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-.sub-titleBaes {
+.baes-sub-title {
   font-weight: 600;
   color: #007bff;
   margin-bottom: 0.5rem;
 }
 
-.card-textBaes {
+.baes-card-text {
   color: #333;
   line-height: 1.5;
   font-size: 1rem;
 }
 
-/* ----- VARIANTES PERSONALIZADAS ----- */
-.custom-cardBaes {
-  background-color: #f8f9fa;
-  border-left: 5px solid #007bff;
-  border-radius: 12px;
+.baes-card-text1 {
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
 }
 
-.custom-cardBaes .card-textBaes {
+/* ----- VARIANTES PERSONALIZADAS ----- */
+.baes-custom-card {
+  background-color: #ece6f3; /* lavanda claro */
+  border: 1px solid #ece6f3; /* borde suave */
+  border-radius: 10px;
+}
+
+.baes-custom-card .baes-card-text {
   color: #444;
 }
 
 /* ----- BOTONES PERSONALIZADOS ----- */
-.custom-btnBaes {
-  background-color: #007bff;
-  color: #fff;
+.baes-btn {
+  background-color: #9b4dca; /* morado */
+  color: white;
   border: none;
-  padding: 8px 16px;
-  margin: 5px;
   border-radius: 25px;
-  font-size: 0.95rem;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
 }
 
-.custom-btnBaes:hover {
-  background-color: #0056b3;
+.baes-btn:hover {
+  background-color: #7b36a6; /* morado más oscuro */
   transform: translateY(-2px);
 }
 
 /* ----- TEXTO ESPECIAL  ----- */
-#cuarentacinco {
+#baes-monto {
   font-size: 2rem;
   font-weight: bold;
-  color: #28a745;
+  color: #a052cf;
   margin: 10px 0;
 }
 
 /* ----- ESPACIADO GENERAL ----- */
-.sectionBaes {
-  margin-bottom: 60px;
+.baes-example-box {
+  background-color: #d1f6fb; /* celeste */
+  border: 1px solid #e0e0e0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: #333;
 }
 
+.baes-example-box strong {
+  font-weight: 600;
+}
+/* Footer BAES */
+.baes-footer {
+  background-color: var(--color-alt);
+  color: white;
+}
+
+.baes-footer-logo-img {
+  width: 3rem;
+}
+
+.baes-footer-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.baes-footer-text {
+  margin-bottom: 1rem;
+}
+
+.baes-footer-btn {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.baes-footer-btn:hover {
+  background-color: var(--color-secondary);
+}
+
+.baes-footer-icons svg {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}

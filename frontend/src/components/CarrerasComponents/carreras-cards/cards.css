@@ -1,0 +1,62 @@
+/* ----- TARJETAS CARRERAS ----- */
+.carreras-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.carreras-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* ----- HEADER MORADO ----- */
+.carreras-card-header {
+  background: linear-gradient(135deg, #cb6ce6, #7a3db8);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+
+/* ----- TÍTULO ----- */
+.carreras-card-title {
+  font-weight: 700;
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+/* ----- CUERPO DE LA TARJETA ----- */
+.carreras-card-body {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.carreras-card-text {
+  color: #000000;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+/* ----- BOTONES PERSONALIZADOS ----- */
+.carreras-btn {
+  background-color: #9b4dca;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.carreras-btn:hover {
+  background-color: #7b36a6;
+  transform: translateY(-2px);
+}
+

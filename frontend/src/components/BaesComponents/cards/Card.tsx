@@ -11,10 +11,10 @@ interface CardProps {
 
 const Card = ({ title, text, children, className = "" }: CardProps) => {
   return (
-    <div className={`card cardBaes ${className}`} style={{ width: "auto", marginBottom: "15px" }}>
-      <div className="card-body card-bodyBaes text-center">
-        {title && <h5 className="card-title card-titleBaes">{title}</h5>}
-        {text && <p className="card-text card-textBaes">{text}</p>}
+    <div className={`baes-card ${className}`} style={{ width: "auto", marginBottom: "15px" }}>
+      <div className="baes-card-body">
+        {title && <h5 className="baes-card-title">{title}</h5>}
+        {text && <p className="baes-card-text">{text}</p>}
         {children}
       </div>
     </div>

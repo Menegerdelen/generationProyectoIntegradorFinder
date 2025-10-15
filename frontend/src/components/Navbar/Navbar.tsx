@@ -24,6 +24,22 @@ export const Navbar = () => {
                     <li className="nav-item">
                     <Link className="nav-link" to="/tne" >TNE</Link>
                     </li>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Links de Ayuda
+                        </a>
+                        <ul className="dropdown-menu">
+                            <li className="nav-item">
+                            <Link className="nav-link" to="/carr" >BAES</Link>
+                            </li>
+                            <li className="nav-item">
+                            <Link className="nav-link" to="/carreras" >Carreras</Link>
+                            </li>
+                            <li className="nav-item">
+                            <Link className="nav-link " to="/orientacion-estudiantil" >Orientacion Estudiantil</Link>
+                            </li>
+                        </ul>
+                    </li>
                     <li className="nav-item">
                     <Link className="nav-link " to="/mapa" >Mapa</Link>
                     </li>

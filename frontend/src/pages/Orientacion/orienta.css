@@ -1,0 +1,60 @@
+:root{
+  --orienta-primary:#cb6ce6;
+  --orienta-secondary:#7a3db8;
+  --orienta-alt:#aa5dda;
+}
+
+
+/* Hero */
+.orienta-hero{
+  height: 60vh;
+  background: linear-gradient(135deg, var(--orienta-primary), var(--orienta-secondary));
+  display:flex; align-items:center; text-align:center;
+}
+.herotext {
+  color:#FFD700
+}
+
+/* Cards coherentes con la maqueta (blancas, sombra, header morado) */
+.orienta-card {
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+  overflow: hidden;
+  transition: transform .2s ease, box-shadow .25s ease;
+}
+.orienta-card:hover { transform: translateY(-3px); box-shadow: 0 8px 18px rgba(0,0,0,.12); }
+
+.orienta-card-header{
+  background: linear-gradient(135deg, var(--orienta-primary), var(--orienta-secondary));
+  color:#fff;
+  padding:.75rem 1rem;
+  text-align:center;
+  font-weight:700;
+ 
+}
+
+/* Chips/barritas internas */
+.orienta-chip{
+  background: linear-gradient(135deg, var(--orienta-primary), var(--orienta-secondary));
+  color:#fff; border-radius:999px; padding:.5rem 1rem; font-weight:600; display:inline-block;
+}
+
+/* Botón */
+
+.orienta-btn {
+  background-color: #9b4dca;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+/* alto fijo para el contenedor del video (ajusta a gusto) */
+.orienta-video-fixed { height: 520px; }           /* md+ */
+@media (max-width: 767.98px){
+  .orienta-video-fixed { height: 420px; }         /* móvil */
+}
+

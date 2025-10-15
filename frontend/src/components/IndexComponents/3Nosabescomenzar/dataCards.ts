@@ -25,7 +25,7 @@ export const datosTarjetas: Datos[] = [
         descripcion: "Prueba de Acceso a la Educación Superior.",
         imagenSrc: paesIMG,
         imagenAlt: "PAES",
-        link: "#"
+        link: "/paes"
     },
     {
         id: 2,
@@ -33,7 +33,7 @@ export const datosTarjetas: Datos[] = [
         descripcion: "Beca de alimentación para la Educación Superior.",
         imagenSrc: baesIMG,
         imagenAlt: "BAES",
-        link: "#"
+        link: "/baes"
     },
     {
         id: 3,
@@ -41,7 +41,7 @@ export const datosTarjetas: Datos[] = [
         descripcion: "Tarjeta Nacional Estudiantil.",
         imagenSrc: tneIMG,
         imagenAlt: "TNE",
-        link: "#"
+        link: "/tne"
     },
     {
         id: 4,
@@ -49,7 +49,7 @@ export const datosTarjetas: Datos[] = [
         descripcion: "Descubre todos los detalles acerca del ingreso a IES.",
         imagenSrc: admsIMG,
         imagenAlt: "Admisión",
-        link: "#"
+        link: "/admision"
     },
     {
         id: 5,
@@ -57,7 +57,7 @@ export const datosTarjetas: Datos[] = [
         descripcion: "Descubre todo acerca de financiamiento para Educación superior.",
         imagenSrc: becasIMG,
         imagenAlt: "Becas",
-        link: "#"
+        link: "/becas-y-creditos"
     },
     {
         id: 6,
@@ -65,7 +65,7 @@ export const datosTarjetas: Datos[] = [
         descripcion: "Encuentra ayuda psicológica gratuita y a bajo costo.",
         imagenSrc: sicoIMG,
         imagenAlt: "Apoyo",
-        link: "#"
+        link: "/apoyo-sicologico"
     },
     {
         id: 7,
@@ -73,7 +73,7 @@ export const datosTarjetas: Datos[] = [
         descripcion: "Descubre su utilidad y el listado.",
         imagenSrc: preuIMG,
         imagenAlt: "Preuniversitarios",
-        link: "#"
+        link: "/preuniversitarios"
     },
     {
         id: 8,
@@ -81,7 +81,7 @@ export const datosTarjetas: Datos[] = [
         descripcion: "Infórmate acerca de los tipos de carreras que hay.",
         imagenSrc: carreraIMG,
         imagenAlt: "Carreras",
-        link: "#"
+        link: "/carreras"
     },
     {
         id: 9,
@@ -89,6 +89,6 @@ export const datosTarjetas: Datos[] = [
         descripcion: "¿Vas en 1° o 4° medio y no sabes qué hacer? Aquí te orientamos.",
         imagenSrc: orientIMG,
         imagenAlt: "Orientación",
-        link: "#"
+        link: "/orientacion-estudiantil"
     }
 ];
